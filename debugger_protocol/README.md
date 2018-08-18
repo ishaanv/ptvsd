@@ -2,7 +2,7 @@
 
 [Visual Studio Code](https://code.visualstudio.com/) defines several
 protocols that extensions may leverage to fully integrate with VSC
-features.  For ptvad the most notable of those is the debugger protocol.
+features.  For ptvsd, the most notable of those is the debugger protocol.
 When VSC handles debugger-related input via the UI, it delegates the
 underlying behavior to an extension's debug adapter (e.g. ptvsd) via
 the protocol.  The
